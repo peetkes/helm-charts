@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/peetkes/helm-charts/releases/download/marklogic-0.1.0/marklogic-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-24T14:28:30.150129+02:00"
+  test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-24T15:14:05.936334+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 41d982039f307c65a22431929d0101a47f3327b642e4a1bbe4ba8639e7d50504
+    name: test
+    type: application
+    urls:
+    - https://github.com/peetkes/helm-charts/releases/download/test-0.1.0/test-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-05-24T15:14:05.936346+02:00"
