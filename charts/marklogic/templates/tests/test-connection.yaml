@@ -11,5 +11,5 @@ spec:
     - name: wget
       image: busybox
       command: ['wget']
-      args: ['{{ include "marklogic.fullname" . }}:{{ .Values.service.port }}']
+      args: ['{{ include "marklogic.fullname" . }}:7997']
   restartPolicy: Never
